@@ -5,7 +5,8 @@
   "main": "src/scripts/index.tsx",
   "scripts": {
     "dev-build": "webpack --config webpack.dev.js",
-    "build": "webpack --config webpack.prod.js"
+    "build": "webpack --config webpack.prod.js",
+    "emulator": "firebase emulators:start --import=./firestore_data --export-on-exit"
   },
   "repository": {
     "type": "git",
